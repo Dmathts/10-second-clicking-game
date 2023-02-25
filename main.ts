@@ -14,10 +14,10 @@ function R2D2 () {
 game.setScore(0)
 game.resume()
 basic.showString("Hello world!")
-forever ;
+forever
 game.createSprite(2, 2)
 game.startCountdown(1000000)
-8*8+5
+8 * 8 + 5
 basic.forever(function () {
     while (game.score() < 25) {
         R2D2()
@@ -26,7 +26,7 @@ basic.forever(function () {
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B)) {
         game.addScore(1)
-        if (25 < game.score()) {
+        if (25 == game.score()) {
             game.pause()
             basic.showString("You won")
             images.createBigImage(`
