@@ -13,7 +13,7 @@ function R2D2 () {
 }
 game.setScore(0)
 game.resume()
-basic.showString("Hello dante!")
+basic.showString("Hello world!")
 forever ;
 game.createSprite(2, 2)
 game.startCountdown(1000000)
