@@ -9,7 +9,7 @@ input.onButtonPressed(Button.AB, function () {
         `)
 })
 function R2D2 () {
-    music.playSoundEffect(music.createSoundEffect(WaveShape.Noise, 5000, 1, 76, 0, 5000, SoundExpressionEffect.Warble, InterpolationCurve.Curve), SoundExpressionPlayMode.InBackground)
+    music.playSoundEffect(music.createSoundEffect(WaveShape.Noise, 5000, 1, 74, 0, 9999, SoundExpressionEffect.Warble, InterpolationCurve.Curve), SoundExpressionPlayMode.InBackground)
 }
 game.setScore(0)
 game.resume()
@@ -26,7 +26,7 @@ basic.forever(function () {
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B)) {
         game.addScore(1)
-        if (25 == game.score()) {
+        if (game.score() == 25) {
             game.pause()
             basic.showString("You won")
             images.createBigImage(`

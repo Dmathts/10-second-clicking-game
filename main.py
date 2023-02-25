@@ -13,9 +13,9 @@ def R2D2():
     music.play_sound_effect(music.create_sound_effect(WaveShape.NOISE,
             5000,
             1,
-            76,
+            74,
             0,
-            5000,
+            9999,
             SoundExpressionEffect.WARBLE,
             InterpolationCurve.CURVE),
         SoundExpressionPlayMode.IN_BACKGROUND)
@@ -35,16 +35,16 @@ basic.forever(on_forever)
 def on_forever2():
     if input.button_is_pressed(Button.A) or input.button_is_pressed(Button.B):
         game.add_score(1)
-        if 25 < game.score():
+        if game.score() == 25:
             game.pause()
             basic.show_string("You won")
             images.create_big_image("""
                 . . # # . . # # . .
-                                                                . . # # . . # # . .
-                                                                # . . . . . . . . #
-                                                                # # # # # # # # # #
-                                                                . # # # # # # # # .
-            """).showImage(0, 500)
+                                . . # # . . # # . .
+                                # . . . . . . . . #
+                                # # # # # # # # # #
+                                . # # # # # # # # .
+            """).show_image(0, 500)
 basic.forever(on_forever2)
 
 def on_in_background():
