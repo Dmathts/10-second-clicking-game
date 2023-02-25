@@ -10,4 +10,4 @@
         # . . . . . . . . # 
         # # # # # # # # # # 
         . # # # # # # # # .
-        `</field></block></value><value name="offset"><shadow type="math_number" id="!X|ay@Gf.bB_UD|aX+}@"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="}:~4`qCKPN)B#|wd.SbS"><field name="NUM">500</field></shadow></value></block></next></block></next></block></statement></block></next></block></statement></block></statement></block><block type="variables_get" id="wa%Xs0?Yxk}*fIk.:1JV" disabled="true" x="847" y="1042"><field name="VAR" id="I!+gGs.=C0*O=):90PnI">myImage</field></block></xml>
+        `</field></block></value><value name="offset"><shadow type="math_number" id="!X|ay@Gf.bB_UD|aX+}@"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="}:~4`qCKPN)B#|wd.SbS"><field name="NUM">500</field></shadow></value></block></next></block></next></block></statement></block></next></block></statement></block></statement></block></xml>
