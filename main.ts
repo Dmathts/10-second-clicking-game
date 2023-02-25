@@ -33,3 +33,4 @@ basic.forever(function () {
 control.inBackground(function () {
     basic.showIcon(IconNames.Yes)
 })
+8*8+5
