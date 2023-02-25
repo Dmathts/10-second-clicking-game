@@ -18,7 +18,6 @@ forever ;
 game.createSprite(2, 2)
 game.startCountdown(1000000)
 8*8+5
-control.waitForEvent(68, 70)
 basic.forever(function () {
     while (game.score() < 25) {
         R2D2()
